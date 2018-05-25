@@ -1,6 +1,6 @@
-package com.lly.order.order.repository;
+package com.lly.order.repository;
 
-import com.lly.order.order.dataobject.OrderDetail;
+import com.lly.order.dataobject.OrderDetail;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

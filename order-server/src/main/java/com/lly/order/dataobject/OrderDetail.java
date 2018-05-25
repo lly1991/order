@@ -1,4 +1,4 @@
-package com.lly.order.order.dataobject;
+package com.lly.order.dataobject;
 
 import lombok.Data;
 

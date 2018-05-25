@@ -1,7 +1,7 @@
-package com.lly.order.order.utils;
+package com.lly.order.utils;
 
 
-import com.lly.order.order.VO.ResultVO;
+import com.lly.order.VO.ResultVO;
 
 /**
  * Created by 廖师兄

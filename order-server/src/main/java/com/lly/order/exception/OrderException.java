@@ -1,7 +1,7 @@
-package com.lly.order.order.exception;
+package com.lly.order.exception;
 
 
-import com.lly.order.order.enums.ResultEnum;
+import com.lly.order.enums.ResultEnum;
 
 /**
  * Created by 廖师兄

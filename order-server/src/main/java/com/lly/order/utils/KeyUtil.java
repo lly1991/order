@@ -1,4 +1,4 @@
-package com.lly.order.order.utils;
+package com.lly.order.utils;
 
 import java.util.Random;
 

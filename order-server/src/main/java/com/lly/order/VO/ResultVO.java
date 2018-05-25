@@ -1,4 +1,4 @@
-package com.lly.order.order.VO;
+package com.lly.order.VO;
 
 import lombok.Data;
 

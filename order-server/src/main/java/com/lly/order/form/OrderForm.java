@@ -1,4 +1,4 @@
-package com.lly.order.order.form;
+package com.lly.order.form;
 
 import lombok.Data;
 import org.hibernate.validator.constraints.NotEmpty;

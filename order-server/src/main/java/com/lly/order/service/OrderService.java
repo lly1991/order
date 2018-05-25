@@ -1,7 +1,7 @@
-package com.lly.order.order.service;
+package com.lly.order.service;
 
 
-import com.lly.order.order.dto.OrderDTO;
+import com.lly.order.dto.OrderDTO;
 
 /**
  * Created by 廖师兄

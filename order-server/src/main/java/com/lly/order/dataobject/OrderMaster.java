@@ -1,19 +1,22 @@
-package com.lly.order.order.dto;
+package com.lly.order.dataobject;
 
-import com.lly.order.order.dataobject.OrderDetail;
 import lombok.Data;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.math.BigDecimal;
-import java.util.List;
+import java.util.Date;
 
 /**
  * Created by 廖师兄
- * 2017-12-10 16:42
+ * 2017-12-10 16:06
  */
 @Data
-public class OrderDTO {
+@Entity
+public class OrderMaster {
 
     /** 订单id. */
+    @Id
     private String orderId;
 
     /** 买家名字. */
@@ -37,5 +40,9 @@ public class OrderDTO {
     /** 支付状态, 默认为0未支付. */
     private Integer payStatus;
 
-    private List<OrderDetail> orderDetailList;
+    /** 创建时间. */
+    private Date createTime;
+
+    /** 更新时间. */
+    private Date updateTime;
 }
